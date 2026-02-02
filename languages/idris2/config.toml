@@ -1,0 +1,4 @@
+name = "Idris 2"
+grammar = "idris"
+path_suffixes = ["idr", "idr2"]
+line_comments = ["--"]

@@ -1,0 +1,16 @@
+id = "idris2-lsp"
+name = "Idris 2 LSP"
+version = "0.0.1"
+schema_version = 1
+authors = ["Dylan Braithwaite <dylanbraithwaite1@gmail.com>"]
+description = "Idris 2 language support"
+repository = "https://github.com/dylanbraithwaite/zed-idris2-lsp"
+
+[grammars.idris]
+repository = "https://github.com/kayhide/tree-sitter-idris"
+rev = "c56a25cf57c68ff929356db25505c1cc4c7820f6"
+
+[language_servers.idris2]
+name = "Idris 2 LSP"
+languages = ["Idris 2"]
+code_action_kinds = ["refactor.rewrite"]
