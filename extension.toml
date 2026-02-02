@@ -1,5 +1,5 @@
-id = "idris2-lsp"
-name = "Idris 2 LSP"
+id = "idris2"
+name = "Idris 2"
 version = "0.0.1"
 schema_version = 1
 authors = ["Dylan Braithwaite <dylanbraithwaite1@gmail.com>"]
