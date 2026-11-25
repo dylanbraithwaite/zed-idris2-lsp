@@ -8,7 +8,7 @@ repository = "https://github.com/dylanbraithwaite/zed-idris2-lsp"
 
 [grammars.idris]
 repository = "https://github.com/brainrake/tree-sitter-idris"
-rev = "5fe0b45af8ea896f646dbf5de97ed351da93c902"
+rev = "c1ac77c2d547503e84e7390ffa72b26c29578a79"
 
 [language_servers.idris2]
 name = "Idris 2 LSP"

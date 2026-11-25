@@ -3,10 +3,3 @@
 Currently very barebones Zed extension for Idris 2 language support.
 - Uses the Idris 2 treesitter grammar from https://github.com/kayhide/tree-sitter-idris
 - Expects the [Idris 2 lsp server](https://github.com/idris-community/idris2-lsp) to be installed and available in the PATH as `idris2-lsp`
-
-The grammar revision includes the identifier-recovery fix proposed in
-https://github.com/kayhide/tree-sitter-idris/pull/16. It prevents keyword prefixes
-and fragments inside names such as `interpret`, `mainLoop`, and `shutdown` from
-being highlighted as keywords when editing incomplete declarations.
-The grammar is pinned to the fix author's
-fork while the upstream pull request is under review.
